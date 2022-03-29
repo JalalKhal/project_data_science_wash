@@ -1,0 +1,92 @@
+/*b)
+SELECT count(*) 
+FROM "Frequency" as f
+WHERE f.docid="10398_txt_earn"
+;
+*/
+
+/*b)
+SELECT f.term,count(*) 
+FROM "Frequency" as f
+WHERE f.docid="10398_txt_earn" and count=1
+;
+*/
+/*c)
+SELECT count(*)
+FROM(
+	SELECT f.term
+	FROM "Frequency" as f
+	WHERE f.docid="10398_txt_earn" and count=1
+	
+	UNION
+	
+	SELECT f.term
+	FROM "Frequency" as f
+	WHERE f.docid="925_txt_trade" and count=1
+	)
+;
+*/
+
+/*d)
+SELECT count(*)  
+FROM "frequency" as f
+WHERE f.term="parliament"
+*/
+
+
+
+/*e)
+SELECT count(*) FROM(
+	SELECT f.docid
+	FROM "frequency" as f
+	GROUP BY f.docid
+	HAVING count(f.term)>300
+)	
+
+*/
+
+
+/*f)
+SELECT count(*)
+FROM(
+	SELECT DISTINCT f1.docid
+	FROM "frequency" as f1
+	INNER JOIN "frequency" as f2
+	ON f1.docid=f2.docid
+	WHERE f1.term="transactions" and f2.term="world"
+)
+*/
+
+/*e)
+SELECT arnum,bcnum,SUM(ab_value)
+FROM(
+	SELECT a.row_num as arnum,a.col_num as acnum,b.row_num as brnum,b.col_num as bcnum,a.value*b.value as ab_value
+	FROM a,b
+	WHERE a.col_num=b.row_num
+	)
+WHERE arnum=2 and bcnum=3
+GROUP BY arnum,bcnum
+
+*/
+
+
+
+/*f)
+SELECT SUM(A.freqcrude*B.freqearn)
+FROM
+(
+   SELECT docid, term, CAST(count as REAL) as freqcrude
+   FROM "frequency"
+   WHERE docid = '10080_txt_crude'
+) A,
+(
+   SELECT docid, term, CAST(count as REAL) as freqearn
+   FROM "frequency"
+   WHERE docid = '17035_txt_earn'
+) B
+WHERE A.term = B.term
+
+*/
+
+
+
