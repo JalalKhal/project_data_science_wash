@@ -2,7 +2,9 @@ repository for the Data Science at Scale specialization offered by Coursera and 
 Prepared by Khaldi Jalal:
 
 Content:
+
 assignement1:
+
 Lesson 1: Examples and the Diversity of Data Science(Appetite Whetting: Politics/Appetite Whetting: Extreme Weather/Appetite Whetting: Digital Humanities/Appetite Whetting: Bibliometrics/Appetite Whetting: Food, Music, Public Health/Appetite Whetting: Public Health cont'd, Earthquakes, Legal)
 
 Lesson 2: Working Definitions of Data Science(Characterizing Data Science/Characterizing Data Science, cont'd/Distinguishing Data Science from Related Topics/Four Dimensions of Data Science)
