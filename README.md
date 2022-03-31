@@ -1,4 +1,4 @@
-repository for the Data Science at Scale specialization offered by Coursera and the University of Washington.
+Repository for the Data Science at Scale specialization offered by Coursera and the University of Washington.
 
 Prepared by Khaldi Jalal:
 
