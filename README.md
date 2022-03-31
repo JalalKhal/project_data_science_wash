@@ -36,7 +36,10 @@ More General Distributed Algorithms)
 
 Lesson 11: The MapReduce Programming Model(MapReduce Abstraction/MapReduce Data Model/Map and Reduce Functions/MapReduce Simple Example/MapReduce Simple Example cont'd/MapReduce Example: Word Length Histogram/MapReduce Examples: Inverted Index, Join)
 
-Lesson 12: Algorithms in MapReduce(Relational Join: Map Phase/Relational Join: Reduce Phase/Simple Social Network Analysis: Counting Friends/Matrix Multiply Overview/Matrix Multiply Illustrated/Shared Nothing Computing)
+Lesson 12: Algorithms in MapReduce(Relational Join: Map Phase/Relational Join: Reduce Phase/Simple Social Network Analysis: Counting Friends/Matrix Multiply Overview/Matrix Multiply Illustrated/Shared Nothing Computing/MapReduce Implementation/MapReduce Phases)
+
+Lesson 13: Parallel Databases vs. MapReduce(A Design Space for Large-Scale Data Systems/Parallel and Distributed Query Processing/Teradata Example, MR Extensions/RDBMS vs. MapReduce: Features/RDBMS vs. Hadoop: Grep/RDBMS vs. Hadoop: Select, Aggregate, Join)
+
 
 
 
