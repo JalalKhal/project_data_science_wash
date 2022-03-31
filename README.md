@@ -1,7 +1,7 @@
 repository for the Data Science at Scale specialization offered by Coursera and the University of Washington.
 Prepared by Khaldi Jalal:
-Content:
 
+Content:
 assignement1:
 Lesson 1: Examples and the Diversity of Data Science(Appetite Whetting: Politics/Appetite Whetting: Extreme Weather/Appetite Whetting: Digital Humanities/Appetite Whetting: Bibliometrics/Appetite Whetting: Food, Music, Public Health/Appetite Whetting: Public Health cont'd, Earthquakes, Legal)
 
@@ -21,6 +21,6 @@ Lesson 7: Relational Algebra(Algebraic Optimization Overview/Relational Algebra 
 /Relational Algebra Operators: Projection, Cross Product/Relational Algebra Operators: Cross Product cont'd, Join/Relational Algebra Operators: Outer Join
 /Relational Algebra Operators: Theta-Join)
 
-Lesson 8: Characterizing this Course(Tools vs. Abstractions/Desktop Scale vs. Cloud Scale/Hackers vs. Analysts/Structs vs. Stats/Structs vs. Stats cont'd)
+Lesson 8:SQL for Data Science(From SQL to RA/Thinking in RA: Logical Query Plans/Practical SQL: Binning Timeseries/Practical SQL: Genomic Intervals/User-Defined Functions/Support for User-Defined Functions)
 
 Lesson 9: Related Topics (4 paradigm of science/ Data-Intensive Science Examples/ Big Data and the 3 Vs/Big Data Definitions/Big Data Sources)
